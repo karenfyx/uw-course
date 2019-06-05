@@ -1,0 +1,12 @@
+
+===Compile===
+Compile the program in A4 directory and run in A4/Assets.
+For example, 
+	cd A4
+	premake4 gmake
+	make
+	cd ./Assets
+	../A4 simple.lua
+	../A4 nonhier.lua
+
+

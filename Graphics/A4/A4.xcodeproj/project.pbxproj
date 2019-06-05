@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		28E980B022A885970067A5C6 /* Primitive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Primitive.hpp; sourceTree = "<group>"; };
+		28E980B122A885970067A5C6 /* Mesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		28E980B222A885970067A5C6 /* Material.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Material.hpp; sourceTree = "<group>"; };
+		28E980B322A885970067A5C6 /* A4 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = A4; sourceTree = "<group>"; };
+		28E980B422A885970067A5C6 /* A4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = A4.hpp; sourceTree = "<group>"; };
+		28E980B522A885970067A5C6 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		28E980B622A885970067A5C6 /* polyroots.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = polyroots.cpp; sourceTree = "<group>"; };
+		28E980B722A885970067A5C6 /* Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
+		28E980B822A885970067A5C6 /* JointNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JointNode.hpp; sourceTree = "<group>"; };
+		28E980B922A885970067A5C6 /* scene_lua.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = scene_lua.hpp; sourceTree = "<group>"; };
+		28E980BA22A885970067A5C6 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		28E980BB22A885970067A5C6 /* nonhier copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nonhier copy.png"; sourceTree = "<group>"; };
+		28E980BC22A885970067A5C6 /* Light.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Light.cpp; sourceTree = "<group>"; };
+		28E980BD22A885970067A5C6 /* SceneNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SceneNode.hpp; sourceTree = "<group>"; };
+		28E980BE22A885970067A5C6 /* Ray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
+		28E980BF22A885970067A5C6 /* GeometryNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GeometryNode.hpp; sourceTree = "<group>"; };
+		28E980C022A885970067A5C6 /* PhongMaterial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhongMaterial.cpp; sourceTree = "<group>"; };
+		28E980C122A885970067A5C6 /* simple-cows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simple-cows.png"; sourceTree = "<group>"; };
+		28E980C222A885970067A5C6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		28E980C322A885970067A5C6 /* simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple.png; sourceTree = "<group>"; };
+		28E980C422A885970067A5C6 /* Light.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Light.hpp; sourceTree = "<group>"; };
+		28E980C522A885970067A5C6 /* SceneNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SceneNode.cpp; sourceTree = "<group>"; };
+		28E980C622A885970067A5C6 /* lua488.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lua488.hpp; sourceTree = "<group>"; };
+		28E980C722A885970067A5C6 /* PhongMaterial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PhongMaterial.hpp; sourceTree = "<group>"; };
+		28E980C822A885970067A5C6 /* GeometryNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryNode.cpp; sourceTree = "<group>"; };
+		28E980C922A885970067A5C6 /* Ray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ray.hpp; sourceTree = "<group>"; };
+		28E980CA22A885970067A5C6 /* nonhier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nonhier.png; sourceTree = "<group>"; };
+		28E980CB22A885970067A5C6 /* nonhier.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = nonhier.lua; sourceTree = "<group>"; };
+		28E980CC22A885970067A5C6 /* premake4.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = premake4.lua; sourceTree = "<group>"; };
+		28E980CD22A885970067A5C6 /* Primitive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Primitive.cpp; sourceTree = "<group>"; };
+		28E980CE22A885970067A5C6 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		28E980CF22A885970067A5C6 /* Mesh.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mesh.hpp; sourceTree = "<group>"; };
+		28E980D022A885970067A5C6 /* Material.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Material.cpp; sourceTree = "<group>"; };
+		28E980D122A885970067A5C6 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		28E980D222A885970067A5C6 /* A4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A4.cpp; sourceTree = "<group>"; };
+		28E980D322A885970067A5C6 /* polyroots.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = polyroots.hpp; sourceTree = "<group>"; };
+		28E980D422A885970067A5C6 /* Image.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Image.hpp; sourceTree = "<group>"; };
+		28E980D522A885970067A5C6 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		28E980D622A885970067A5C6 /* JointNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JointNode.cpp; sourceTree = "<group>"; };
+		28E980D722A885970067A5C6 /* scene_lua.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scene_lua.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		28E980AA22A885970067A5C6 = {
+			isa = PBXGroup;
+			children = (
+				28E980B022A885970067A5C6 /* Primitive.hpp */,
+				28E980B122A885970067A5C6 /* Mesh.cpp */,
+				28E980B222A885970067A5C6 /* Material.hpp */,
+				28E980B322A885970067A5C6 /* A4 */,
+				28E980B422A885970067A5C6 /* A4.hpp */,
+				28E980B522A885970067A5C6 /* .DS_Store */,
+				28E980B622A885970067A5C6 /* polyroots.cpp */,
+				28E980B722A885970067A5C6 /* Image.cpp */,
+				28E980B822A885970067A5C6 /* JointNode.hpp */,
+				28E980B922A885970067A5C6 /* scene_lua.hpp */,
+				28E980BA22A885970067A5C6 /* Makefile */,
+				28E980BB22A885970067A5C6 /* nonhier copy.png */,
+				28E980BC22A885970067A5C6 /* Light.cpp */,
+				28E980BD22A885970067A5C6 /* SceneNode.hpp */,
+				28E980BE22A885970067A5C6 /* Ray.cpp */,
+				28E980BF22A885970067A5C6 /* GeometryNode.hpp */,
+				28E980C022A885970067A5C6 /* PhongMaterial.cpp */,
+				28E980C122A885970067A5C6 /* simple-cows.png */,
+				28E980C222A885970067A5C6 /* README */,
+				28E980C322A885970067A5C6 /* simple.png */,
+				28E980C422A885970067A5C6 /* Light.hpp */,
+				28E980C522A885970067A5C6 /* SceneNode.cpp */,
+				28E980C622A885970067A5C6 /* lua488.hpp */,
+				28E980C722A885970067A5C6 /* PhongMaterial.hpp */,
+				28E980C822A885970067A5C6 /* GeometryNode.cpp */,
+				28E980C922A885970067A5C6 /* Ray.hpp */,
+				28E980CA22A885970067A5C6 /* nonhier.png */,
+				28E980CB22A885970067A5C6 /* nonhier.lua */,
+				28E980CC22A885970067A5C6 /* premake4.lua */,
+				28E980CD22A885970067A5C6 /* Primitive.cpp */,
+				28E980CE22A885970067A5C6 /* build */,
+				28E980CF22A885970067A5C6 /* Mesh.hpp */,
+				28E980D022A885970067A5C6 /* Material.cpp */,
+				28E980D122A885970067A5C6 /* Assets */,
+				28E980D222A885970067A5C6 /* A4.cpp */,
+				28E980D322A885970067A5C6 /* polyroots.hpp */,
+				28E980D422A885970067A5C6 /* Image.hpp */,
+				28E980D522A885970067A5C6 /* Main.cpp */,
+				28E980D622A885970067A5C6 /* JointNode.cpp */,
+				28E980D722A885970067A5C6 /* scene_lua.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		28E980AF22A885970067A5C6 /* A4 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 28E980D822A885970067A5C6 /* Build configuration list for PBXLegacyTarget "A4" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/yanxifu/Documents/school/1191/CS488/cs488 copy/A4";
+			dependencies = (
+			);
+			name = A4;
+			passBuildSettingsInEnvironment = 1;
+			productName = A4;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		28E980AB22A885970067A5C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 28E980AE22A885970067A5C6 /* Build configuration list for PBXProject "A4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28E980AA22A885970067A5C6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E980AF22A885970067A5C6 /* A4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		28E980AC22A885970067A5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		28E980AD22A885970067A5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		28E980D922A885970067A5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = A4;
+			};
+			name = Debug;
+		};
+		28E980DA22A885970067A5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = A4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E980AE22A885970067A5C6 /* Build configuration list for PBXProject "A4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E980AC22A885970067A5C6 /* Debug */,
+				28E980AD22A885970067A5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E980D822A885970067A5C6 /* Build configuration list for PBXLegacyTarget "A4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E980D922A885970067A5C6 /* Debug */,
+				28E980DA22A885970067A5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E980AB22A885970067A5C6 /* Project object */;
+}
